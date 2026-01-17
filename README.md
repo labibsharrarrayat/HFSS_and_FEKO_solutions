@@ -75,3 +75,9 @@ The resulting radiation pattern reveals polarization isolation and field orienta
 ![Dipole Impedance Trend](hfss_impedance_plot.png)
 
 ---
+
+## 🔹 Right Hand vs Left Hand Polarization (measuring half-power beamwidth in FEKO)
+
+![Right Hand vs Left Hand Polarization](LHC_RHC_HPBW.png)
+
+---
