@@ -7,5 +7,5 @@ List of documents containing HFSS and FEKO solutions. Majority of the simulation
 ### Dipole radiation patterns in HFSS and FEKO
 ![radiation pattern](hfss_feko_comparison.png)
 
-### HFSS Smith Chart
+### HFSS Smith Chart of dipole
 ![smith_chart](hfss_smith_chart.png)
