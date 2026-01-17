@@ -114,3 +114,11 @@ Analying current distribution in different sections of the dipole with loading p
 
 ---
 
+## 🔹 Dipole on a circular PEC plate
+
+Radiation pattern of the dipole on a circular PEC plate with different radii.
+![Radiation Pattern on Plate](radiation_patterns1.png)
+
+---
+
+
