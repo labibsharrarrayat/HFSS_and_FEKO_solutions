@@ -18,3 +18,6 @@ List of documents containing HFSS and FEKO solutions. Majority of the simulation
 
 ### Cross polarized dipoles
 ![cross_polar](3d_model.png)
+
+### Cross polarized antenna radiation pattern
+![cross_polar_rad](3d_pattern.png)
