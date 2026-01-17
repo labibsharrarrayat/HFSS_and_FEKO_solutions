@@ -1,23 +1,69 @@
-# HFSS_and_FEKO_solutions
-List of documents containing HFSS and FEKO solutions. Majority of the simulations consist of monopole or dipole antennas. There are also examples of bistatic and monostatic radar simulations.
+# 🚀 HFSS & FEKO Solutions  
+### Electromagnetic Simulation Portfolio with Power Integrity Relevance
 
-### Current distribution across a dipole in FEKO
+This repository contains **full-wave electromagnetic simulations** performed using  
+**ANSYS HFSS** and **Altair FEKO**, with a focus on **antenna behavior, field interactions, and impedance characteristics** that are directly relevant to **power integrity (PI) and high-speed hardware design**.
+
+While the primary structures are antennas, the analyses emphasize **current flow, impedance control, field coupling, and frequency-dependent behavior**—the same physical mechanisms that govern **PDN stability, resonance, EMI/EMC, and signal integrity** in real electronic systems.
+
+---
+
+## 🔹 Current Distribution Across a Dipole (FEKO)
+
+Understanding **current distribution** is fundamental to power integrity engineering.  
+This simulation visualizes how RF currents propagate and concentrate along a resonant dipole—analogous to **current crowding and standing-wave effects** observed in PDN planes, vias, and interconnects at high frequencies.
+
 ![Current pattern](current_resonant1.png)
 
-### Dipole radiation patterns in HFSS and FEKO
-![radiation pattern](hfss_feko_comparison.png)
+---
 
-### HFSS Smith Chart of dipole
-![smith_chart](hfss_smith_chart.png)
+## 🔹 Dipole Radiation Patterns — HFSS vs FEKO
 
-### Dipole Impedance comparison in HFSS and FEKO
-![impedance_trend](hfss_feko_impedance.png)
+Cross-tool validation is a critical engineering practice.  
+Here, far-field radiation patterns computed in **HFSS** and **FEKO** are compared to verify consistency, reinforcing confidence in **field solvers used for EMI prediction, enclosure coupling, and power-plane resonance analysis**.
 
-### Dipole radiation pattern under different frequencies in HFSS
-![rad_freq](hfss_half_power_beamwidth2.png)
+![Radiation pattern](hfss_feko_comparison.png)
 
-### Cross polarized dipoles
-![cross_polar](3d_model.png)
+---
 
-### Cross polarized antenna radiation pattern
-![cross_polar_rad](3d_pattern.png)
+## 🔹 Smith Chart Analysis of Dipole Impedance (HFSS)
+
+Impedance control lies at the heart of power integrity.  
+This Smith chart illustrates how antenna input impedance varies with frequency, closely paralleling **PDN impedance targets**, **decoupling strategies**, and **resonance avoidance** in high-speed boards.
+
+![Smith chart](hfss_smith_chart.png)
+
+---
+
+## 🔹 Dipole Input Impedance Comparison — HFSS vs FEKO
+
+Accurate impedance prediction is essential for preventing **power rail oscillations and EMI hotspots**.  
+This comparison highlights solver agreement on both real and reactive impedance components, a key requirement when modeling **via inductance, package parasitics, and plane discontinuities**.
+
+![Impedance trend](hfss_feko_impedance.png)
+
+---
+
+## 🔹 Frequency-Dependent Radiation Behavior (HFSS)
+
+Power integrity problems are inherently frequency-dependent.  
+This study demonstrates how radiation patterns and beamwidth change with frequency—mirroring how **PDN resonances emerge and shift across operating bands**, impacting noise coupling and compliance margins.
+
+![Radiation vs frequency](hfss_half_power_beamwidth2.png)
+
+---
+
+## 🔹 Cross-Polarized Dipole Configuration (3D Model)
+
+Complex current paths and orthogonal field components are common in modern electronics.  
+This 3D cross-polarized antenna model provides insight into **multi-axis coupling**, similar to interactions between **power, ground, and signal structures** in dense multilayer designs.
+
+![Cross polarized model](3d_model.png)
+
+---
+
+## 🔹 Cross-Polarized Antenna Radiation Pattern
+
+The resulting radiation pattern reveals polarization isolation and field orientation effects—concepts directly transferable to **EMI suppression, return-path control, and minimizing unwanted coupling** in power-distribution networks.
+
+![Cross polarized radiation pattern](3d_pattern.png)
