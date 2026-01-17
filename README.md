@@ -87,7 +87,7 @@ The resulting radiation pattern reveals polarization isolation and field orienta
 This simulation illustrates **radar cross section (RCS) behavior** of a spherical target under different polarizations, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
 
 <p align="center">
-  <img src="bistatic_sphere2.png" width="65%">
+  <img src="bistatic_sphere2.png" width="45%">
   <img src="sphere_rcs.png" width="45%">
 </p>
 
