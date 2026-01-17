@@ -82,7 +82,7 @@ The resulting radiation pattern reveals polarization isolation and field orienta
 
 ---
 
-## 🔹 Radar Cross Section estimation or a sperical object in FEKO
+## 🔹 Radar Cross Section estimation of a sperical object in FEKO
 
 This simulation illustrates **radar cross section (RCS) behavior** of a spherical target under different polarizations, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
 
@@ -92,3 +92,15 @@ This simulation illustrates **radar cross section (RCS) behavior** of a spherica
 </p>
 
 ---
+
+## 🔹 Radar Cross Section estimation of a square object in FEKO
+
+This simulation illustrates **radar cross section (RCS) behavior** of a square target under different polarizations, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
+
+<p align="center">
+  <img src="bistatic_square2.png" width="35%">
+  <img src="rectangle_rcs1.png" width="45%">
+</p>
+
+---
+
