@@ -81,3 +81,14 @@ The resulting radiation pattern reveals polarization isolation and field orienta
 ![Right Hand vs Left Hand Polarization](LHC_RHC_HPBW.png)
 
 ---
+
+## 🔹 Radar Cross Section estimation or a sperical object in FEKO
+
+This simulation illustrates **radar cross section (RCS) behavior** of a spherical target, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
+
+<p align="center">
+  <img src="exp_setup1.png" width="45%">
+  <img src="sphere_rcs.png" width="45%">
+</p>
+
+---
