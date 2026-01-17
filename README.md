@@ -101,8 +101,7 @@ This study extends the RCS analysis to a square conductive target, highlighting 
 ---
 
 ## 🔹 Dipole with Loading Plates in FEKO
-
-Analying current distribution in different sections of the dipole with loading plates.
+This simulation analyzes the current distribution along a dipole antenna with loading plates, demonstrating how structural loading alters current flow, effective electrical length, and radiation behavior. The results provide insight into impedance control, resonance tuning, and current crowding, which are closely related to return-path integrity and high-frequency conductor design.
 <p align="center">
   <img src="dipole_loading_plates.png" width="35%">
   <img src="current_distribution.png" width="35%">
@@ -111,15 +110,13 @@ Analying current distribution in different sections of the dipole with loading p
 ---
 
 ## 🔹 Dipole on a circular PEC plate
-
-Radiation pattern of the dipole on a circular PEC plate with different radii.
+This study examines the effect of finite reference planes by simulating a dipole mounted on a circular perfect electric conductor (PEC) plate with varying radii. The resulting radiation patterns illustrate how ground plane size and boundary conditions influence field distribution and radiation behavior, directly analogous to reference-plane effects in PCB signal and power integrity design.
 ![Radiation Pattern on Plate](radiation_patterns1.png)
 
 ---
 
 ## 🔹 Circular loop antenna
-
-Simulation and radiation pattern of circular loop antenna (with multiple with several input voltages along the loop).
+Simulation and radiation analysis of a circular loop antenna excited at multiple feed locations along the loop. This study highlights how excitation position and loop geometry affect current distribution and radiation patterns, reinforcing fundamental concepts relevant to magnetic-field coupling, near-field behavior, and EMI analysis.
 <p align="center">
   <img src="simulation_setup_loop.png" width="35%">
   <img src="feko_radius_large.png" width="35%">
@@ -128,8 +125,7 @@ Simulation and radiation pattern of circular loop antenna (with multiple with se
 ---
 
 ## 🔹 Cone Antenna in HFSS
-
-Cone antenna simulation in HFSS, indicating the trend in impedance and radiation pattern for different frequencies.
+This simulation explores the impedance characteristics and radiation patterns of a conical antenna across multiple frequencies using HFSS. The results demonstrate broadband impedance behavior and frequency-dependent radiation trends, offering insight into wideband antenna design, impedance stability, and high-frequency electromagnetic modeling.
 <p align="center">
   <img src="cone_HFSS.png" width="35%">
   <img src="Impedance_HFSS.png" width="55%">
