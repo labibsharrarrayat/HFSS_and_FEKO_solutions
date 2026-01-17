@@ -99,7 +99,7 @@ This simulation illustrates **radar cross section (RCS) behavior** of a square t
 
 <p align="center">
   <img src="bistatic_square2.png" width="35%">
-  <img src="rectangle_rcs1.png" width="45%">
+  <img src="square_go_rcs.png" width="45%">
 </p>
 
 ---
