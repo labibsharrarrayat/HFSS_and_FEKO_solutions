@@ -104,3 +104,13 @@ This simulation illustrates **radar cross section (RCS) behavior** of a square t
 
 ---
 
+## 🔹 Dipole with Loading Plates in FEKO
+
+Analying current distribution in dipole with loading plates.
+<p align="center">
+  <img src="dipole_loading_plates.png" width="35%">
+  <img src="current_distribution.png" width="45%">
+</p>
+
+---
+
