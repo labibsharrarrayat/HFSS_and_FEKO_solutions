@@ -67,3 +67,11 @@ This 3D cross-polarized antenna model provides insight into **multi-axis couplin
 The resulting radiation pattern reveals polarization isolation and field orientation effects—concepts directly transferable to **EMI suppression, return-path control, and minimizing unwanted coupling** in power-distribution networks.
 
 ![Cross polarized radiation pattern](3d_pattern.png)
+
+---
+
+## 🔹 Impendance, Magnitude and Phase trend in dipole across different frequencies in HFSS
+
+![Dipole Impedance Trend](hfss_impedance_plot.png)
+
+---
