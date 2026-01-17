@@ -70,22 +70,20 @@ The resulting radiation pattern reveals polarization isolation and field orienta
 
 ---
 
-## 🔹 Impendance, Magnitude and Phase trend in dipole across different frequencies in HFSS
-
+## 🔹 Impedance Magnitude and Phase Trend of a Dipole Across Frequency (HFSS)
+This study examines the frequency-dependent impedance behavior of a dipole antenna using ANSYS HFSS, including both magnitude and phase variations across the operating band. The results highlight resonance behavior, impedance transitions, and phase reversal regions that are critical for matching, bandwidth estimation, and high-frequency signal integrity analysis in RF and mixed-signal systems.
 ![Dipole Impedance Trend](hfss_impedance_plot.png)
 
 ---
 
-## 🔹 Right Hand vs Left Hand Polarization (measuring half-power beamwidth in FEKO)
-
+## 🔹 Right-Hand vs Left-Hand Circular Polarization (Half-Power Beamwidth Analysis in FEKO)
+This simulation compares right-hand circular polarization (RHCP) and left-hand circular polarization (LHCP) radiation characteristics using FEKO. The analysis focuses on half-power beamwidth (HPBW) and polarization-dependent radiation behavior, providing insight into polarization purity, coupling effects, and directional performance relevant to antenna-system integration and electromagnetic compatibility studies.
 ![Right Hand vs Left Hand Polarization](LHC_RHC_HPBW.png)
 
 ---
 
 ## 🔹 Radar Cross Section estimation of a sperical object in FEKO
-
-This simulation illustrates **radar cross section (RCS) behavior** of a spherical target under different polarizations, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
-
+This simulation investigates the radar cross section (RCS) of a perfectly conducting spherical target under different polarization conditions using FEKO. The results illustrate fundamental EM scattering mechanisms, polarization sensitivity, and angular response, which are directly applicable to EMI/EMC analysis, unintended radiation assessment, and high-frequency system modeling.
 <p align="center">
   <img src="bistatic_sphere2.png" width="35%">
   <img src="sphere_rcs.png" width="45%">
@@ -94,9 +92,7 @@ This simulation illustrates **radar cross section (RCS) behavior** of a spherica
 ---
 
 ## 🔹 Radar Cross Section estimation of a square object in FEKO
-
-This simulation illustrates **radar cross section (RCS) behavior** of a square target under different polarizations, a concept directly relevant to **EM scattering, EMC analysis, and unintended radiation assessment** in high-frequency systems.
-
+This study extends the RCS analysis to a square conductive target, highlighting how geometry-induced discontinuities and edge diffraction affect scattering behavior. The comparison with spherical targets provides practical intuition for package, board, and enclosure-level EM scattering, which is critical in signal and power integrity analysis of complex electronic systems.
 <p align="center">
   <img src="bistatic_square2.png" width="35%">
   <img src="square_go_rcs.png" width="45%">
