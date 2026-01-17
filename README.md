@@ -131,4 +131,15 @@ Simulation and radiation pattern of circular loop antenna (with multiple with se
 
 ---
 
+## 🔹 Cone Antenna in HFSS
+
+Cone antenna simulation in HFSS, indicating the trend in impedance and radiation pattern for different frequencies.
+<p align="center">
+  <img src="cone_HFSS.png" width="35%">
+  <img src="Impedance_HFSS.png" width="35%">
+  <img src="radiation_pattern_hfss.png" width="35%">
+</p>
+
+---
+
 
