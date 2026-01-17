@@ -12,3 +12,6 @@ List of documents containing HFSS and FEKO solutions. Majority of the simulation
 
 ### Dipole Impedance comparison in HFSS and FEKO
 ![impedance_trend](hfss_feko_impedance.png)
+
+### Dipole radiation pattern under different frequencies in HFSS
+![rad_freq](hfss_half_power_beamwidth2.png)
