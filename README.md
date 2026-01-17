@@ -9,3 +9,6 @@ List of documents containing HFSS and FEKO solutions. Majority of the simulation
 
 ### HFSS Smith Chart of dipole
 ![smith_chart](hfss_smith_chart.png)
+
+### Dipole Impedance comparison in HFSS and FEKO
+![impedance_trend](hfss_feko_impedance.png)
