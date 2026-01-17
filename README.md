@@ -121,4 +121,14 @@ Radiation pattern of the dipole on a circular PEC plate with different radii.
 
 ---
 
+## 🔹 Circular loop antenna
+
+Simulation and radiation pattern of circular loop antenna (with multiple with several input voltages along the loop).
+<p align="center">
+  <img src="simulation_setup_loop.png" width="35%">
+  <img src="feko_radius_large.png" width="35%">
+</p>
+
+---
+
 
