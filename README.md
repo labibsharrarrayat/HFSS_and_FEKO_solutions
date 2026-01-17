@@ -15,3 +15,6 @@ List of documents containing HFSS and FEKO solutions. Majority of the simulation
 
 ### Dipole radiation pattern under different frequencies in HFSS
 ![rad_freq](hfss_half_power_beamwidth2.png)
+
+### Cross polarized dipoles
+![cross_polar](3d_model.png)
